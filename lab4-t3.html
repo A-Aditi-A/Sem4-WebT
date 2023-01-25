@@ -1,0 +1,22 @@
+<html>
+   <head>
+      <style>
+      .myclass {
+         background-color: #cb03a8;
+      }
+      </style>
+   </head>
+   <body>
+      <h1>Hello World!!</h1>
+
+      <button onclick="changeThisPageFunc();">Click Me!</button>
+      <script type="text/javascript">
+         changeThisPageFunc = function() {
+            alert("body has class = "+document.body.className);
+            document.body.className = "myclass";
+            alert("body has class = "+document.body.className);
+            document.body.innerHTML = "<h1>I am a little coloured today.</h1>";
+         }
+      </script>
+   </body>
+</html>
