@@ -1,0 +1,21 @@
+<html>
+   <body>
+      <h1>Hello World!!</h1>
+      <button onclick="changeThisPageFunc();">Click Me!</button>
+      <main>
+         <h1>Hello Main</h2>
+         <p>It's a yes or a no, no maybe.</p>
+      </main>
+      <script type="text/javascript">
+         changeThisPageFunc = function() {
+            var myMain;
+            document.body.style.backgroundColor = "green";
+            myMain = document.querySelector('main');
+            myMain.innerHTML = "<h3>It's a Katy Perry song!!<h3>";
+            myMain.style.height = "50px";
+            myMain.style.width = "50%";
+            myMain.style.backgroundColor = "yellow";
+         }
+      </script>
+   </body>
+</html>
