@@ -1,0 +1,17 @@
+<html>
+   <head>
+	<style>
+		h1{color:red;
+		   font-size:48pt;}
+	</style>
+   <body>
+      <h1>Hello World!!</h1>
+      <button onclick="changeThisPageFunc();">Click Me!</button>
+      <script type="text/javascript">
+         changeThisPageFunc = function() {
+            document.body.style.backgroundColor = "#90EE90";
+            document.body.innerHTML = "<h1>I am <code>changing</code> today.</h1>";
+         }
+      </script>
+   </body>
+</html>
